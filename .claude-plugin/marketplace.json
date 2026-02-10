@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "arvin-client-audit-marketplace",
+  "version": "1.0.0",
+  "description": "Client behavior assessment tools for law firms. AI-powered analysis of client conduct with automated termination recommendations.",
+  "owner": {
+    "name": "Nexrizen",
+    "email": "weipengzhuo@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "client-conduct-auditor",
+      "description": "Automated bulk assessment of client behavior for law firm termination decisions. Processes MyCase PDFs and generates Excel spreadsheets with termination recommendations.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Nexrizen",
+        "email": "weipengzhuo@gmail.com"
+      },
+      "source": ".",
+      "category": "productivity",
+      "homepage": "https://github.com/WeipengZhuo/arvin-client_audit"
+    }
+  ]
+}

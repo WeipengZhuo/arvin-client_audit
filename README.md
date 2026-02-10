@@ -29,11 +29,25 @@ This tool processes client activity PDFs exported from case management systems (
 - Python 3.8+
 - Anthropic API key
 
-### Setup
+### Option 1: Install as Claude Code Plugin (Recommended)
+
+In Claude Code, run:
+```
+/plugin marketplace add WeipengZhuo/arvin-client_audit
+/plugin install client-conduct-auditor
+/setup-auditor
+```
+
+Then use with:
+```
+/audit-clients ~/Downloads/client_pdfs
+```
+
+### Option 2: Standalone Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/arvin-client_audit.git
+git clone https://github.com/WeipengZhuo/arvin-client_audit.git
 cd arvin-client_audit
 
 # Run installation script
